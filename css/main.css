@@ -2070,7 +2070,7 @@ form .inputs-description {
 }
 
 .block__image .block-syoss {
-  margin-left: -26%;
+  margin-left: -32%;
   height: 35vh;
 }
 
@@ -2112,15 +2112,27 @@ form .inputs-description {
   margin: 15px auto;
 }
 
+@media (max-width: 1600px) {
+  #syosspain {
+    height: 40vh;
+  }
+  .block__image .block-syoss {
+    height: 40vh;
+  }
+}
+
+
 @media (max-width: 1200px) {
   #syosspain {
     margin-left: 80px;
+    height: 35vh;
   }
   .block__image {
     flex-wrap: nowrap;
   }
   .block__image .block-syoss {
-    margin-left: -34%;
+    margin-left: -23%;
+    height: 35vh;
   }
 }
 
@@ -2128,11 +2140,11 @@ form .inputs-description {
 @media (max-width: 600px) {
   #syosspain {
     margin-left: 20px;
-    height: 30vh;
+    height: 40vh;
   }
 
   .block__image .block-syoss {
-    height: 35vh;
+    height: 40vh;
   }
 }
 
