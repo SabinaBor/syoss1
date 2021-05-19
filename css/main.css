@@ -2066,17 +2066,17 @@ form .inputs-description {
   width: 100%;
   margin: 3vh auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .block__image .block-syoss {
-  margin-left: -75px;
-  height: 40vh;
+  margin-left: -15%;
+  height: 35vh;
 }
 
 .block-syoss {
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 
@@ -2116,7 +2116,11 @@ form .inputs-description {
   #syosspain {
     margin-left: 80px;
   }
+  .block__image {
+    flex-wrap: nowrap;
+  }
 }
+
 
 @media (max-width: 600px) {
   #syosspain {
@@ -2129,9 +2133,16 @@ form .inputs-description {
   }
 }
 
+@media (max-width: 1200px) and (min-height: 1200px) {
+  .block__image {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 1200px) and (max-height: 500px) {
   #syosspain {
     margin-left: 80px;
+
   }
 
   .block__image .block-syoss {
@@ -2140,17 +2151,18 @@ form .inputs-description {
 }
 
 @media (max-width: 1200px) {
-  .block__image {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   #syosspain {
     margin-left: 0;
   }
+}
+
+@media (max-width: 768px) {
+  .block__image {
+    flex-wrap: wrap;
+  }
 
   .block__image .block-syoss {
-    margin: 3vh 0 0 0;
+    margin-left: 0;
   }
 }
 
@@ -4609,6 +4621,7 @@ form .inputs-description {
   justify-content: center;
   align-items: center;
   margin-bottom: 7px;
+  box-shadow: 2px 2px 19px rgb(255 255 255 / 50%);
 }
 
 .img1,
@@ -4721,7 +4734,6 @@ form .inputs-description {
 
 @media only screen and (max-width: 1200px) {
   .main__content__about {
-    margin-top: -25vh;
     margin-bottom: 0;
   }
 
