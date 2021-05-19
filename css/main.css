@@ -2070,7 +2070,7 @@ form .inputs-description {
 }
 
 .block__image .block-syoss {
-  margin-left: -15%;
+  margin-left: -26%;
   height: 35vh;
 }
 
@@ -2119,6 +2119,9 @@ form .inputs-description {
   .block__image {
     flex-wrap: nowrap;
   }
+  .block__image .block-syoss {
+    margin-left: -34%;
+  }
 }
 
 
@@ -2136,6 +2139,10 @@ form .inputs-description {
 @media (max-width: 1200px) and (min-height: 1200px) {
   .block__image {
     flex-wrap: wrap;
+  }
+
+  .block__image .block-syoss {
+    margin-left: 0;
   }
 }
 
